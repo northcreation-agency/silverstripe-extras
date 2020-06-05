@@ -1,0 +1,14 @@
+---
+Name: extras-injector
+---
+
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\View\Requirements_Backend:
+    class: NorthCreationAgency\SSExtras\ExtrasRequirements_Backend
+  TractorCow\Fluent\Extension\FluentExtension:
+    class: NorthCreationAgency\SSExtras\FluentExtensionInjector
+  SilverStripe\View\Parsers\Transliterator:
+    class: NorthCreationAgency\SSExtras\SwedishTransliterator
+  SilverStripe\Assets\Image_Backend:
+    properties:
+      Quality: 90
