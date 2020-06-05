@@ -1,0 +1,10 @@
+---
+Name: ssextras-extensions
+---
+Page:
+  extensions:
+    - NorthCreationAgency\SSExtras\PageExtension
+
+SilverStripe\ORM\FieldType\DBDecimal:
+  extensions:
+    - NorthCreationAgency\SSExtras\DecimalExtension
