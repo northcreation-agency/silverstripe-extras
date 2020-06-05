@@ -25,11 +25,13 @@ use UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows;
  * @method \SilverStripe\SiteConfig\SiteConfig SiteConfig()
  * @method \SilverStripe\ORM\ManyManyList|\SilverStripe\CMS\Model\SiteTree[] MenuPages()
  */
-class FooterMenu extends DataObject
+class SiteMenu extends DataObject
 {
     private static $singluar_name = 'Footer Menu';
     
     private static $plural_name = 'Footer Menus';
+
+    private static $table_name = 'SSExtras_SiteMenu';
     
     private static $db = [
         'Title' => 'Varchar(255)',

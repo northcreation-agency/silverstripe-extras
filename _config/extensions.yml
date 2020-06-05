@@ -8,3 +8,7 @@ Page:
 SilverStripe\ORM\FieldType\DBDecimal:
   extensions:
     - NorthCreationAgency\SSExtras\DecimalExtension
+
+Silverstripe\SiteConfig\SiteConfig:
+  extensions:
+    - NorthCreationAgency\SSExtras\CustomSiteConfig
